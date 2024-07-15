@@ -73,3 +73,39 @@ button {
     margin: 1%;
     border-radius: 7px;
 }
+
+.stats-containers{
+    display: flex;
+    align-items: center;
+}
+
+.stats-container :hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+h2, p {
+    text-align: center;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-input {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-button {
+    padding: 8px 12px;
+    background-color: #a8b0bc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
