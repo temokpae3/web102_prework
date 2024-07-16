@@ -116,8 +116,9 @@ function filterFundedOnly() {
 
     // use the function we previously created to add unfunded games to the DOM
     addGamesToPage(gamesMetGoal);
-
 }
+
+filterFundedOnly();
 
 // show all games
 function showAllGames() {
